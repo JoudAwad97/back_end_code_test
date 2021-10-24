@@ -1,0 +1,20 @@
+{
+  "name": "joud_walid_awad_backend_role",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "NODE_ENV=development nodemon index.js --watch ./",
+    "start": "NODE_ENV=production node index.js",
+    "seed": "node -e 'require(\"./seeds/index.js\").seedData()'"
+  },
+  "keywords": [],
+  "author": "Joud Walid Awad",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.12",
+    "winston": "^3.3.3"
+  }
+}
